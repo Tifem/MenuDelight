@@ -16,6 +16,10 @@ nav{
     align-items: center;
 }
 
+nav h1 a{
+    color: white;
+}
+
 .links{
     display: flex;
     gap: 20px;
@@ -27,6 +31,36 @@ nav{
 
 }
 
+.hero-section{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('./images/main.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+flex-direction: column;
+color: white;
+overflow: hidden;
+padding-left: 3rem;
+
+}
+
+.hero-section h1{
+    font-size: 3.5rem;
+    
+}
 
 
-
+button{
+    background-color: orange;
+    max-width: 200px;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 10px;
+    font-weight: bold;
+}
