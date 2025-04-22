@@ -18,53 +18,15 @@ nav{
 
 .links{
     display: flex;
+    gap: 20px;
 }
 
 .links a{
     color: white;
-    padding: 6px;
     font-size: 14px;
 
 }
 
-.card{
-    display: flex;
-    gap: 25px;
-    padding: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 5px;
-}
 
-.menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    padding: 40px;
-}
-.menu h3{
-    font-size: 26px;
-}
-.menu p{
-    padding-top: 20px;
-    font-size: 13px;
-    font-weight: bold;
-    max-width: 800px;
-    text-align: center;
-    
-}
 
-.box1{
-    text-align: center;
-}
 
-.box1 img{
-    border-radius: 5px;
-
-}
-
-.box1 a{
-    color: red;
-}
