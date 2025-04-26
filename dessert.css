@@ -49,10 +49,15 @@ nav h1 a{
     flex-direction: column;
     justify-content: center;
     padding: 40px;
+
 }
+
+
 .menu h3{
     font-size: 26px;
 }
+
+
 .menu p{
     padding-top: 20px;
     font-size: 13px;
@@ -64,13 +69,15 @@ nav h1 a{
 
 .box1{
     text-align: center;
-     width: 30%;
+    width: 30%;
+    border-top: 5px solid orange;
+    border-left: 5px solid orange;
+    border-radius: 0px 20px;
 
 }
 
 .box1 img{
-    border-radius: 5px;
-
+    border-radius: 5px 18px 20px;
 
 }
 

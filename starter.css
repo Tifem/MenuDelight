@@ -64,12 +64,15 @@ nav h1 a{
 
 .box1{
     text-align: center;
-     width: 30%;
+    width: 30%;
+    border-bottom: 5px solid orange;
+    border-right: 5px solid orange;
+    border-radius: 0px 20px;
 
 }
 
 .box1 img{
-    border-radius: 5px;
+    border-radius: 5px 18px 20px;
 
 
 }
