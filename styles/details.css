@@ -7,17 +7,24 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+:root{
+    --nav-bg-color:black;
+    --text-color:white;
+    --link-bg-color:orange;
+    --link-text-color:orange;
+}
+
 nav{
-    background-color: black;
+    background-color: var(--nav-bg-color);
     padding: 16px 25px;
-    color: white;
+    color: var(--text-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 nav h1 a{
-    color: white;
+    color: var(--text-color);
 }
 
 
@@ -27,7 +34,7 @@ nav h1 a{
 }
 
 .links a{
-    color: white;
+    color: var(--text-color);
     font-size: 14px;
 
 }

@@ -10,6 +10,8 @@
 :root{
     --nav-bg-color:black;
     --text-color:white;
+    --link-bg-color:orange;
+    --link-text-color:orange;
 }
 
 nav{
@@ -26,7 +28,7 @@ nav h1 a{
 }
 
 nav h1 a:hover{
-    color: orange;
+    color: var(--link-text-color);
 }
 
 .links{
@@ -41,7 +43,7 @@ nav h1 a:hover{
 }
 
 .links a:hover{
-    background-color: orange;
+    background-color: var(--link-bg-color);
     padding: 8px 14px;
     border-radius: 10px;
 }
@@ -69,7 +71,7 @@ padding-left: 3rem;
 
 
 button{
-    background-color: orange;
+    background-color: var(--link-bg-color);
     max-width: 200px;
     border: none;
     color: var(--text-color);
@@ -82,6 +84,6 @@ button{
 
 button:hover{
     background-color: var(--nav-bg-color);
-    color: orange;
+    color: var(--link-text-color);
     cursor: pointer;
 }
