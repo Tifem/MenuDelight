@@ -46,6 +46,7 @@ nav h1 a:hover{
     background-color: var(--link-bg-color);
     padding: 8px 14px;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 .hero-section{
@@ -87,3 +88,7 @@ button:hover{
     color: var(--link-text-color);
     cursor: pointer;
 }
+
+.bg-dark {
+    background-color: #000000 !important;
+  }
