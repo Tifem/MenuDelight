@@ -7,17 +7,8 @@
     <link rel="stylesheet" href="styles/details.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   </head>
-  <body>
-    <!-- <nav>
-      <h1><a href="index.html">MenuDelight</a></h1>
-
-      <ul class="links">
-        <li><a href="main.html">Main</a></li>
-        <li><a href="starter.html">Starters</a></li>
-        <li><a href="dessert.html">Desserts</a></li>
-        <li><a href="drink.html">Drinks</a></li>
-      </ul>
-    </nav> -->
+  <body class="bg-light">
+   
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">MenuDelight</a>
@@ -55,72 +46,62 @@
       </div>
     </nav>
 
-    <main>
-      <section class="description">
-        <h2>Duck leg steak</h2>
-        <p>
-          Duck leg steak is quick and easy to make with just a handful of
-          everyday ingredients, and is perfect for warm weather picnics,
-          potlucks, lunches, or light dinners
-        </p>
+    <main class="container py-5">
+      <div class="row g-4 align-items-start">
+        <!-- Dish Image -->
+        <div class="col-md-5">
+          <img src="images/main4.jpg" alt="Duck leg steak" class="img-fluid rounded shadow">
+        </div>
 
-      <div class="recipe-columns">
-         <div class="ingredient">
-         <h3>Ingredients</h3>
-        <ul class="recipe-list">
-          <li>2 duck legs (skin-on, bone-in)</li>
-          <li>Salt and black pepper</li>
-          <li>2 cloves garlic (crushed)</li>
-          <li>2 sprigs fresh thyme or rosemary</li>
-          <li>1 tbsp olive oil or duck fat</li>
-          <li>Lemon juice</li>
-          <li>1 tsp lemon juice or balsamic vinegar (optional)</li>
-          <li>1 tsp honey or soy sauce (optional for glaze)</li>
-        </ul>
-       </div>
+        <!-- Recipe Content -->
+        <div class="col-md-7">
+          <section class="description">
+            <h2 class="fw-bold">Duck Leg Steak</h2>
+            <p class="text-muted">
+              Duck leg steak is quick and easy to make with just a handful of everyday ingredients.
+              It’s perfect for warm-weather picnics, potlucks, lunches, or light dinners.
+            </p>
 
-       <div class="steps">
-         <h3>Steps</h3>
-        <ol>
-          <li>
-            Prep the duck legs
-             <span>
-                Pat dry with paper towels. Score the skin in a
-            crisscross pattern (don’t cut into the meat). Season generously with
-            salt and pepper.
-            </span>
-          </li>
-          <li>
-            Sear skin side down 
-            <span>Heat a pan over medium heat. Place duck legs
-            skin-side down (no oil needed if skin is fatty). Cook 6–8 minutes
-            until skin is crispy and golden.</span>
-          </li>
-          <li>
-            Flip and add flavor 
-            <span>Turn legs over. Add olive oil or duck fat,
-            garlic, and herbs. Cook 4–5 minutes to brown the meat side.</span>
-          </li>
-          <li>
-            Optional glaze 
-            <span>For a sweet touch, brush with honey or soy sauce in
-            the last minute of cooking.</span>
-          </li>
-          <li>
-            Finish in oven (if needed)
-            <span> For thicker legs, transfer to a 180°C
-            (350°F) oven for 10–15 minutes to cook through.</span>
-          </li>
-          <li>
-            Rest and serve Let rest 5 minutes.
-            <span> Drizzle with lemon juice or
-            balsamic vinegar for brightness.</span>
-          </li>
-          <li>Enjoy!</li>
-        </ol>
-       </div>
+            <!-- Ingredients -->
+            <h4>Ingredients</h4>
+            <ul class="list-group mb-4">
+              <li class="list-group-item">2 duck legs (skin-on, bone-in)</li>
+              <li class="list-group-item">Salt and black pepper</li>
+              <li class="list-group-item">2 cloves garlic (crushed)</li>
+              <li class="list-group-item">2 sprigs thyme or rosemary</li>
+              <li class="list-group-item">1 tbsp olive oil or duck fat</li>
+              <li class="list-group-item">1 tsp lemon juice or balsamic vinegar</li>
+              <li class="list-group-item">1 tsp honey or soy sauce (optional for glaze)</li>
+            </ul>
+
+            <!-- Steps -->
+            <h4>Steps</h4>
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item">
+                <strong>Prep the duck legs:</strong> Pat dry and score the skin. Season with salt and pepper.
+              </li>
+              <li class="list-group-item">
+                <strong>Sear skin side down:</strong> Place duck legs in a hot pan (no oil needed if fatty). Cook 6–8 mins.
+              </li>
+              <li class="list-group-item">
+                <strong>Flip and add flavor:</strong> Add garlic, herbs, and oil/fat. Cook another 4–5 mins.
+              </li>
+              <li class="list-group-item">
+                <strong>Optional glaze:</strong> Brush with honey or soy sauce in the final minute.
+              </li>
+              <li class="list-group-item">
+                <strong>Finish in oven:</strong> Bake at 180°C (350°F) for 10–15 mins if legs are thick.
+              </li>
+              <li class="list-group-item">
+                <strong>Rest and serve:</strong> Let rest 5 mins. Drizzle with lemon juice or balsamic vinegar.
+              </li>
+              <li class="list-group-item">Enjoy!</li>
+            </ol>
+          </section>
+        </div>
       </div>
-      </section>
     </main>
+        <!-- Bootstrap JS with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
